@@ -961,6 +961,8 @@ letter-spacing: 0.02em ;
 
 .modal-send-button{
     display: block;
+    margin-right:auto ;
+    margin-left: auto;
     min-width: 169px ;
     height: 56px;
     background: #4D5AE5;
