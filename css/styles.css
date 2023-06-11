@@ -945,9 +945,10 @@ letter-spacing: 0.02em ;
 }
 .modal-input:focus{
     border-color:#4D5AE5 ;
-    fill: #4D5AE5;
+   
 }
-.modal-input::placeholder{
+.modal-input:focus + .modal-icon{
+    fill: #4D5AE5;
 
 }
 .modal-icon{
@@ -980,7 +981,7 @@ letter-spacing: 0.02em ;
 margin-bottom: 8px;
 }
 .comment-field{
-
+    margin-bottom: 16px;
 
    
 }
@@ -1023,7 +1024,7 @@ margin-bottom: 24px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
     color: #8e8f99;
-    display: flex;
+    
     align-items: center;
 
 }
@@ -1043,7 +1044,7 @@ margin-bottom: 24px;
     margin-right: 12px;
 
 }
-.modal-checkbox:checked + .check-text-span{
+.input:checked+label span{
     background-color:#404bbf;
     border: none; 
     fill: #F4F4FD; ;
