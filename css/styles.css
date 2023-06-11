@@ -1040,4 +1040,7 @@ margin-bottom: 24px;
     fill: transparent;
 
 }
+.subscribe-input:focus{
+    fill: #4D5AE5;  
+}
 
