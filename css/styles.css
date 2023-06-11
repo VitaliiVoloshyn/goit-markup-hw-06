@@ -1028,7 +1028,7 @@ margin-bottom: 24px;
     align-items: center;
 
 }
-.check-icon{
+.check-link{
 
 }
 .check-text-span{
@@ -1044,7 +1044,7 @@ margin-bottom: 24px;
     margin-right: 12px;
 
 }
-.input:checked+label span{
+.modal-input:checked +.check-link{
     background-color:#404bbf;
     border: none; 
     fill: #F4F4FD; ;
