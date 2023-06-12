@@ -1044,12 +1044,12 @@ margin-bottom: 24px;
     margin-right: 12px;
 
 }
-.modal-input:checked +.check-link{
+.modal-input:checked+ .check-text-span{
     background-color:#404bbf;
     border: none; 
     fill: #F4F4FD; ;
 }
-.link-privacy{
+.check-text-span{
 color: #4d5ae5; ;
 }
 
